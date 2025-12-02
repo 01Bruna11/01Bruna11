@@ -1,0 +1,28 @@
+name: Generate Pixel Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Gerar cobrinha pixel
+        uses: Platane/snk@v3
+        with:
+          github_user_name: 01Bruna11
+          outputs: |
+            dist/pixel-snake.svg?palette=pixel
+            dist/pixel-snake-dark.svg?palette=pixel-dark
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Atualização da cobrinha pixel"
+          branch: main
