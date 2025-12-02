@@ -7,6 +7,8 @@ Atuei com suporte técnico, administração de plataformas EaD, testes manuais, 
 
 ---
 
+
+
 ## 🚀 Tecnologias e Ferramentas
 - **Back-end:** Python, Django, Flask, API REST  
 - **Linguagens:** Python, C, C++, SQL  
@@ -16,6 +18,11 @@ Atuei com suporte técnico, administração de plataformas EaD, testes manuais, 
 - **Sistemas:** Linux, Kali  
 - **QA e Testes:** TDD, BDD, testes manuais  
 - **Segurança:** ferramentas básicas de pentest (Hackers do Bem)
+
+---
+
+## 🐍 Pixel Snake – Minhas Contribuições no GitHub
+![Pixel Snake](https://github.com/01Bruna11/01Bruna11/blob/main/dist/pixel-snake.svg)
 
 ---
 
